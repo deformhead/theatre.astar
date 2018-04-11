@@ -1,4 +1,4 @@
-import Astar from '../sources/astar.js';
+import {Astar} from '../sources/astar.js';
 
 import chai from 'chai';
 

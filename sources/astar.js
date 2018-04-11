@@ -1,4 +1,4 @@
-export default function Astar(heuristic, diagonal) {
+export function Astar(heuristic, diagonal) {
 
     let nodes;
     let openHeap;
