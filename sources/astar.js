@@ -1,4 +1,4 @@
-export function Astar(heuristic, diagonal) {
+function Astar(heuristic, diagonal) {
 
     let nodes;
     let openHeap;
@@ -262,4 +262,9 @@ export function Astar(heuristic, diagonal) {
     }
 
     this.getPath = getPath;
+}
+
+export {
+
+    Astar
 };
