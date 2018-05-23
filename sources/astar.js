@@ -264,7 +264,5 @@ function Astar(heuristic, diagonal) {
     this.getPath = getPath;
 }
 
-export {
-
-    Astar
-};
+// exports current module as an object
+export {Astar};
